@@ -1,9 +1,9 @@
 
 //This will not run on deno, we need a separate index to run our tests.
 
-import * as child_process from "child_process";
-import * as path from "path";
-import { Deferred } from "evt/dist/tools/Deferred";
+import * as child_process from "child_process DENOIFY: DEPENDENCY UNMET (BUILTIN)";
+import * as path from "https://deno.land/std/node/path.ts";
+import { Deferred } from "https://raw.github.com/garronej/evt/v1.6.8/deno_dist/tools/Deferred.ts";
 
 (async () => {
 
