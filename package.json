@@ -1,10 +1,10 @@
 {
-    "name": "#{REPO_NAME}#",
+    "name": "super_duper_umbrella",
     "version": "0.0.0",
-    "description": "#{DESC}#",
+    "description": "this is just an automation test",
     "repository": {
         "type": "git",
-        "url": "git://github.com/#{USER_OR_ORG}#/#{REPO_NAME}#.git"
+        "url": "git://github.com/cahuzacf/super_duper_umbrella.git"
     },
     "main": "./dist/index.js",
     "types": "./dist/index.d.ts",
@@ -19,18 +19,18 @@
         "enable_short_import_path:deno": "npm run build && npx denoify_enable_short_deno_import_path",
         "clean": "rm -rf dist deno_dist node_modules mod.ts package-lock.json"
     },
-    "author": "u/#{USER_OR_ORG}#",
+    "author": "u/cahuzacf",
     "license": "MIT",
     "files": [
         "/dist/*.{d.ts,js,js.map}",
         "/dist/tools/*.{d.ts,js,js.map}"
     ],
     "keywords": [],
-    "homepage": "https://github.com/#{USER_OR_ORG}#/#{REPO_NAME}#",
+    "homepage": "https://github.com/cahuzacf/super_duper_umbrella",
     "devDependencies": {
-        "typescript": "^3.9.0",
         "@types/node": "^10.0.0",
         "denoify": "github:garronej/denoify",
-        "evt": "^1.6.8"
+        "evt": "^1.6.8",
+        "typescript": "^3.9.2"
     }
 }
