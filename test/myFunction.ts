@@ -1,7 +1,7 @@
 
-import { myFunction } from "..";
+import { myFunction } from "../index.ts";
 
-import { getPromiseAssertionApi } from "evt/dist/tools/testing/getPromiseAssertionApi";
+import { getPromiseAssertionApi } from "https://raw.github.com/garronej/evt/v1.6.8/deno_dist/tools/testing/getPromiseAssertionApi.ts";
 
 const { mustResolve } = getPromiseAssertionApi({ "takeIntoAccountArraysOrdering": true});
 
